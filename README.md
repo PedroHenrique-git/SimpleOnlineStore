@@ -15,7 +15,30 @@
 </p>
 
 <p align="left">
-    Clonar projeto: git clone https://github.com/PedroHenrique-git/Lista-Telefonica.git
+    Clonar projeto: git clone https://github.com/PedroHenrique-git/SimpleOnlineStore.git
 </p>
 
-![VISUAL](Capture.PNG)
+Tela de login: 
+
+<img src='imagens/login.png'/>
+
+Tela de login mobile:
+
+<img src='imagens/loginMobile.png'/>
+
+Tela usuario admin:
+
+<img src='imagens/telaUsarioadmin.png'/>
+
+Tela usuario admin mobile:
+
+<img src='imagens/telaUsuarioAdminMobile.png'/>
+
+Tela usuario comum:
+
+<img src='imagens/telaUsuarioComum.png'/>
+
+Tela usuario comum mobile:
+
+<img src='imagens/telaUsuarioMobile.png'/>
+
