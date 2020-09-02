@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bibliotecas/icofont/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/stylePricipal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <main class="container">
+        <header class="header">
+            
+            E-commerce
+            <div>
+                <span id="usuario"></span>
+                <span id="logout">
+                    <i class="icofont-logout"></i>
+                </span>
+                <span id="carrinho">
+                    <i class="icofont-cart"></i>
+                </span>
+                <span id="qtdProd">0</span>
+            </div>
+        </header>
+        <div class="admin-opcoes">
+            <button class="btn-inserir">Inserir novo produto</button>
+        </div>    
+        <section class="produtos"></section>
+
+        <footer>@E-commerce</footer>
+     </main>
+
+     <div class="modal">
+        <i class="icofont-close"></i>
+        <div class="input-block">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div class="input-block">
+            <label for="imagem">Imagem: </label>
+            <input type="text" name="imagem" id="imagem">
+        </div>
+        <div class="input-block">
+            <label for="preco">Preço: </label>
+            <input type="text" name="preco" id="preco">
+        </div>
+     </div>
+
+    <script src="assets/js/logout.js"></script>
+    <script src="assets/js/listaProdutos.js"></script>
+    <script src="assets/js/cadastrarProduto.js"></script>
+    <script src="assets/js/excluirProdutos.js"></script>
+    <script src="assets/js/atualizarProduto.js"></script>
+    
+</body>
+</html>
