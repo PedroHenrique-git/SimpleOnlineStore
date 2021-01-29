@@ -1,44 +1,18 @@
-<h1 align="center">Loja online simples</h1>
+## Simple online store
 
-<p align="left">
- Uma simples loja online com funcionalidade para usuários comuns e funcionalidades de usuários administradores.
-</p>
+A simple online store with functionality for ordinary users and functionality for administrator users.
 
-<p align="left">
-    <ul>
-        <li><a href="https://www.php.net/">🔗 Php</a></li>
-        <li><a href="https://www.mysql.com/">🔗 Mysql</a></li>
-        <li><a href="https://jquery.com/">🔗 Jquery</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">🔗 Html</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">🔗 Css</a></li>
-    </ul>
-</p>
+## Getting Started
 
-<p align="left">
-    Clonar projeto: git clone https://github.com/PedroHenrique-git/SimpleOnlineStore.git
-</p>
+create a database called "lojavirtual", then create a table called "product" with name, img (url) and price, and finally create a table called "user" with login, password and admin (char)
 
-Tela de login: 
+## Built With
 
-<img src='imagens/login.png'/>
+* [PHP](https://www.php.net/) 
+* [MYSQL](https://www.mysql.com/) 
+* [Jquery](https://jquery.com/)
 
-Tela de login mobile:
+## License
 
-<img src='imagens/loginMobile.png'/>
-
-Tela usuario admin:
-
-<img src='imagens/telaUsarioadmin.png'/>
-
-Tela usuario admin mobile:
-
-<img src='imagens/telaUsuarioAdminMobile.png'/>
-
-Tela usuario comum:
-
-<img src='imagens/telaUsuarioComum.png'/>
-
-Tela usuario comum mobile:
-
-<img src='imagens/telaUsuarioMobile.png'/>
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
